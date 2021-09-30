@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Tour</title>
+    <link rel="icon" href="./asset/img/cute-16x16.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./asset/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="grid wide">
+                <div class="header__box">
+                    <a href="./" class="logo__link">
+                        <img src="./asset/img/logo-color.png" alt="Logo" class="header__logo-img">
+                    </a>
+        
+                    <div class="navbar hide-on-mobile-tablet">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__item-link">
+                                    <span class="underline underline--primary">Home</span>
+                                </a>
+                            </li>
+        
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__item-link">
+                                    <span class="underline underline--primary">Packages</span>
+                                </a>
+
+                                <!-- navbar list lv1 -->
+                                <ul class="navbar__list navbar__list--inner navbar__list--inner-lv1">
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">HaNoi</span>
+                                            <span class="tick tick--hot">HOT</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Singapore</span>    
+                                            <i class="navbar__item-link-icon ti-angle-right"></i>
+                                        </a>
+
+                                        <!-- navbar list lv2 -->
+                                        <ul class="navbar__list navbar__list--inner navbar__list--inner-lv2">
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Carousel</span>
+                                                    <span class="tick tick--best">BEST</span>
+                                                </a>
+                                            </li>
+                        
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Custom Map</span>
+                                                </a>
+                                            </li>
+
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">360° Panorama</span>
+                                                </a>
+                                            </li>
+                        
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Default</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Hong Kong</span>                        
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Paris</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Berlin</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+        
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__item-link">
+                                    <span class="underline underline--primary">Shop</span>
+                                </a>
+
+                                <!-- navbar list lv1 -->
+                                <ul class="navbar__list navbar__list--inner navbar__list--inner-lv1">
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Gift Shop</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Coffe Shop</span>    
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Style Shop</span>                        
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+        
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__item-link">
+                                    <span class="underline underline--primary">About Us</span>  
+                                </a>
+
+                                <!-- navbar list lv1 -->
+                                <ul class="navbar__list navbar__list--inner navbar__list--inner-lv1">
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">About Us 1</span>
+                                            <span class="tick tick--new">NEW</span>      
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">About Us 2</span>    
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">About Us 3</span>                        
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+        
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__item-link">
+                                    <span class="underline underline--primary">Pages</span>
+                                </a>
+
+                                <!-- navbar list lv1 -->
+                                <ul class="navbar__list navbar__list--inner navbar__list--inner-lv1">
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Services</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Agency Tours</span>    
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Testimonials</span>                        
+                                        </a>
+                                    </li>
+
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Prices</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Promotions</span>    
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Faq</span>                        
+                                        </a>
+                                    </li>
+
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Coming Soon</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">About Us</span>
+                                            <i class="navbar__item-link-icon ti-angle-right"></i>    
+                                        </a>
+
+                                        <!-- navbar__list--inner-lv2 -->
+                                        <ul class="navbar__list navbar__list--inner navbar__list--inner-lv2">
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">About Us 1</span>
+                                                </a>
+                                            </li>
+                        
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">About Us 2</span>
+                                                </a>
+                                            </li>
+
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">About Us 3</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Contact</span>  
+                                            <i class="navbar__item-link-icon ti-angle-right"></i>                      
+                                        </a>
+
+                                        <!-- navbar__list--inner-lv2 -->
+                                        <ul class="navbar__list navbar__list--inner navbar__list--inner-lv2">
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Contact 1</span>
+                                                </a>
+                                            </li>
+                        
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Contact 2</span>
+                                                </a>
+                                            </li>
+
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Contact 3</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+        
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__item-link">
+                                    <span class="underline underline--primary">News</span>
+                                </a>
+
+                                <ul class="navbar__list navbar__list--inner navbar__list--inner-lv1">
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Archive</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Hot Musics</span>
+                                            <i class="navbar__item-link-icon ti-angle-right"></i>    
+                                        </a>
+
+                                        <!-- navbar__list--inner-lv2 -->
+                                        <ul class="navbar__list navbar__list--inner navbar__list--inner-lv2">
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">I Do - 911</span>
+                                                    <span class="tick tick--hot">HOT</span>      
+                                                </a>
+                                            </li>
+                        
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Sugar - Marron5</span>
+                                                </a>
+                                            </li>
+
+                                            <li class="navbar__item">
+                                                <a href="#" class="navbar__item-link">
+                                                    <span class="underline underline--primary">Until You - Shayne Ward</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+        
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__item-link">
+                                    <span class="underline underline--primary">Contacts</span>
+                                </a>
+
+
+                                <!-- navbar__list--inner-lv1 -->
+                                <ul class="navbar__list navbar__list--inner navbar__list--inner-lv1">
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Contacts 1</span>
+                                        </a>
+                                    </li>
+                
+                                    <li class="navbar__item">
+                                        <a href="#" class="navbar__item-link">
+                                            <span class="underline underline--primary">Contacts 2</span>    
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+    
+                            <li class="navbar__item">
+                                <a href="#" class="navbar__btn btn btn--sandybrown">BOOK NOW</a>
+                            </li>
+                        </ul>
+        
+                    </div>
+
+                    <div class="header__menu">
+                        <i class="ti-menu"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slider-sup slider-3" style="background-image: url(./asset/img/slider/slide-03.jpg);"></div>
+            <div class="slider-sup slider-2" style="background-image: url(./asset/img/slider/slide-02.jpg);"></div>
+            <div class="slider-sup slider-1" style="background-image: url(./asset/img/slider/slide-01.jpg);"></div>
+            
+            <div class="slider__control">
+                <button class="slider__control-btn">
+                    <i class="ti-angle-left"></i>
+                </button>
+                <button class="slider__control-btn">
+                    <i class="ti-angle-right"></i>
+                </button>
+            </div>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-7 l-o-5 m-10 m-o-2 c-12">
+                        <div class="slider__body">
+                            <div class="slider__header">
+                                <h2 class="slider__heading">
+                                    Enjoy
+                                    <span class="slider__heading--primary-color">Your</span>
+                                    Holiday
+                                </h2>
+                                <h2 class="slider__heading">
+                                    With Our
+                                    <span class="slider__heading--primary-color">Agency</span>
+                                </h2>
+                            </div>
+                            <ul class="slider__description-list hide-on-mobile">
+                                <li class="slider__description-item">
+                                    <i class="fas fa-star"></i>
+                                <span class="slider__description">
+                                    SPECTACULAR THINGS TO DO
+                                    <br>
+                                    BEST PLACES TO SEE
+                                </span>
+                                </li>
+
+                                <li class="slider__description-item">
+                                    <i class="fas fa-star"></i>
+                                    <span class="slider__description">
+                                        LOCALS GUIDE AVAILABLE 
+                                    </span>
+                                </li>
+
+                                <li class="slider__description-item">
+                                    <i class="fas fa-star"></i>
+                                    <span class="slider__description">
+                                        ALL INCLUSIVE FAMILY HOLIDAY
+                                        <br>
+                                        FOR ALL SEASON 
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <div class="slider__buy">
+                                <button class="slider__buy-btn btn btn--size-l btn--sandybrown">BUY THE TOUR</button>
+                                <div class="slider__price">$25</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="grid wide experience">
+                <div class="row">
+                    <div class="col l-8 m-12 c-12">
+                        <div class="row content__box-header">
+                            <div class="col l-12 m-12 c-12">
+                                <h4 class="content__sup-heading">WALK TOUR AND SUGWAY</h4>
+                                <h2 class="content__heading">The Paris
+                                    <span class="underline underline--primary underline--full-width">Experience</span>
+                                    !
+                                </h2>
+                            </div>
+                            <div class="col l-6 m-12 c-12">
+                                <p class="content__desription">
+                                    Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin rhoncus urn a dictum neque molestie ultricies.
+                                </p>
+                            </div>
+                            <div class="col l-6 m-12 c-12">
+                                <p class="content__desription">
+                                    Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin rhoncus urn a dictum neque molestie ultricies.
+                                </p>
+                            </div>
+                            <div class="col l-6">
+                                <button class="content__btn btn btn--size-l btn--sandybrown">VIEW ALL PACKAGES</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-12 c-12">
+                        <div class="video__img" style="background-image: url(./asset/img/container/para-07.jpg);">
+                            <a href="https://www.youtube.com/watch?v=UM1O-4ll-vU" class="video__link">
+                                <i class="video__link-icon ti-control-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row experience__place">
+                    <div class="col l-2-4 m-6 c-12">
+                        <div class="experience__place-item">
+                            <a href="" class="experience__place-link">
+                                <img src="./asset/img/container/experience__place/package-01-150x150.jpg" alt="" class="experience__place-img">
+                                <span class="experience__price background-color-berlin">
+                                    700
+                                    <i class="ti-money"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col l-2-4 m-6 c-12">
+                        <div class="experience__place-item">
+                            <a href="" class="experience__place-link">
+                                <img src="./asset/img/container/experience__place/package-02-150x150.jpg" alt="" class="experience__place-img">
+                                <span class="experience__price background-color-hongkong">
+                                    500
+                                    <i class="ti-money"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col l-2-4 m-6 c-12">
+                        <div class="experience__place-item">
+                            <a href="" class="experience__place-link">
+                                <img src="./asset/img/container/experience__place/package-03-150x150.jpg" alt="" class="experience__place-img">
+                                <span class="experience__price background-color-sanfrancisco">
+                                    400
+                                    <i class="ti-money"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col l-2-4 m-6 c-12">
+                        <div class="experience__place-item">
+                            <a href="" class="experience__place-link">
+                                <img src="./asset/img/container/experience__place/package-04-150x150.jpg" alt="" class="experience__place-img">
+                                <span class="experience__price background-color-thailand">
+                                    1200
+                                    <i class="ti-money"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- services -->
+            <div class="services">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 l-o-4 m-12 c-12">
+                            <h4 class="content__sup-heading text-center white-color">MULTIPLE BENEFITS INCLUDED</h4>
+                            <h2 class="content__heading text-center white-color">
+                                OUR
+                                <span class="underline underline--primary underline--full-width">SERVICES</span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="row services-box">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="services__item">
+                                <img src="./asset/img/container/services-icon/ico-02.png" alt="" class="services__icon">
+                                <div class="services__infor">
+                                    <h3 class="services__name">Insurance</h3>
+                                    <p class="services__desription">
+                                        Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.
+                                    </p>
+                                    <a href="" class="services__btn btn btn--lightseagreen">View More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="services__item">
+                                <img src="./asset/img/container/services-icon/ico-03.png" alt="" class="services__icon">
+                                <div class="services__infor">
+                                    <h3 class="services__name">Medical Care</h3>
+                                    <p class="services__desription">
+                                        Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.
+                                    </p>
+                                    <a href="" class="services__btn btn btn--salmon">View More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="services__item">
+                                <img src="./asset/img/container/services-icon/ico-04.png" alt="" class="services__icon">
+                                <div class="services__infor">
+                                    <h3 class="services__name">Meals Included</h3>
+                                    <p class="services__desription">
+                                        Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.
+                                    </p>
+                                    <a href="" class="services__btn btn btn--darkturquoise">View More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="services__item">
+                                <img src="./asset/img/container/services-icon/ico-05.png" alt="" class="services__icon">
+                                <div class="services__infor">
+                                    <h3 class="services__name">Accessibility</h3>
+                                    <p class="services__desription">
+                                        Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.
+                                    </p>
+                                    <a href="" class="services__btn btn btn--sandybrown">View More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="services__item">
+                                <img src="./asset/img/container/services-icon/ico-06.png" alt="" class="services__icon">
+                                <div class="services__infor">
+                                    <h3 class="services__name">Customer Care</h3>
+                                    <p class="services__desription">
+                                        Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.
+                                    </p>
+                                    <a href="" class="services__btn btn btn--mediumorchid">View More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="services__item">
+                                <img src="./asset/img/container/services-icon/ico-07.png" alt="" class="services__icon">
+                                <div class="services__infor">
+                                    <h3 class="services__name">Shuttle Included</h3>
+                                    <p class="services__desription">
+                                        Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.
+                                    </p>
+                                    <a href="" class="services__btn btn btn--salmon">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <!-- SALE -->
+                <div class="row sale-box">
+                    <div class="col l-3 m-12 c-12">
+                        <div class="sale-banner">
+                            <h4 class="content__sup-heading text-center white-color">LAST MINUTE !</h4>
+                            <h2 class="content__heading text-center white-color">
+                                Summer
+                                <span class="underline underline--darksalmon underline--full-width">SALE</span>
+                            </h2>
+
+                            <div class="sale-banner__time-box">
+                                <div class="sale-banner__time-wrap">
+                                    <p class="sale-banner__time-number">000</p>
+                                    <p class="sale-banner__time-date">DAYS</p>
+                                </div>
+                                <div class="sale-banner__time-wrap">
+                                    <p class="sale-banner__time-number">00</p>
+                                    <p class="sale-banner__time-date">HOURS</p>
+                                </div>
+                                <div class="sale-banner__time-wrap">
+                                    <p class="sale-banner__time-number">00</p>
+                                    <p class="sale-banner__time-date">MINUTES</p>
+                                </div>
+                                <div class="sale-banner__time-wrap">
+                                    <p class="sale-banner__time-number">00</p>
+                                    <p class="sale-banner__time-date">SECONDS</p>
+                                </div>
+                            </div>
+
+                            <div class="sale-banner__btn-wrap">
+                                <a href="" class="sale-banner__btn btn btn--text-primary btn--white">CHECK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-9 m-12 c-12">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="sale-item">
+                                    <div class="sale-item__img-box">
+                                        <img src="./asset/img/container/sale-item/package-01-1024x640.jpg" alt="" class="sale-item__img">
+                                        <a href="" class="sale-item__icon-link background-color-berlin">
+                                            <img src="./asset/img/container/sale-item/eu-icon.png" alt="" class="sale-item__icon">
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="sale-item__infor">
+                                        <div class="sale-item__name-box">
+                                            <a href="" class="sale-item__name">Berlin</a>
+                                            <a href="" class="sale-item__location">
+                                                <i class="ti-location-pin"></i>
+                                                Europe
+                                            </a>
+                                        </div>
+
+                                        <div class="sale-item__type-and-price">
+                                            <div class="sale-item__type-box">
+                                                <a href="" class="sale-item__type">CULTURAL</a>
+                                                <a href="" class="sale-item__type">
+                                                    RELAX
+                                                    <span class="sale-item__tick tick tick--size-s tick--gold-color">
+                                                        <i class="sale-item__tick-icon ti-plus"></i>
+                                                        1
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="sale-item__price-box">
+                                                <span class="sale-item__current-price">700</span>
+                                                <i class="sale-item__price-icon ti-money"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-item__description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                                        </div>
+
+                                        <a href="" class="sale-item__btn btn btn--gold">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-6">
+                                <div class="sale-item">
+                                    <div class="sale-item__img-box">
+                                        <img src="./asset/img/container/sale-item/package-02-1024x640.jpg" alt="" class="sale-item__img">
+                                        <a href="" class="sale-item__icon-link background-color-hongkong">
+                                            <img src="./asset/img/container/sale-item/asia-icon.png" alt="" class="sale-item__icon">
+                                        </a>
+                                        <a href="" class="sale-item__img-tick-link tick tick--sale tick--size-l">SALE</a>
+                                    </div>
+                                    
+                                    <div class="sale-item__infor">
+                                        <div class="sale-item__name-box">
+                                            <a href="" class="sale-item__name">Hong Kong</a>
+                                            <a href="" class="sale-item__location">
+                                                <i class="ti-location-pin"></i>
+                                                Asia
+                                            </a>
+                                        </div>
+
+                                        <div class="sale-item__type-and-price">
+                                            <div class="sale-item__type-box">
+                                                <a href="" class="sale-item__type">CULTURAL</a>
+                                                <a href="" class="sale-item__type">
+                                                    RELAX
+                                                    <span class="sale-item__tick tick tick--size-s tick--salmon-color">
+                                                        <i class="sale-item__tick-icon ti-plus"></i>
+                                                        1
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="sale-item__price-box">
+                                                <span class="sale-item__old-price">1000</span>
+                                                <span class="sale-item__current-price">500</span>
+                                                <i class="sale-item__price-icon ti-money"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="sale-item__description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                                        </div>
+
+                                        <a href="" class="sale-item__btn btn btn--salmon">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- BLOG -->
+                <div class="row">
+                    <div class="col l-4 l-o-4 m-12 c-12">
+                        <h4 class="content__sup-heading text-center">FROM THE BLOG</h4>
+                        <h2 class="content__heading text-center">
+                            ARTICLES &
+                            <span class="underline underline--lightseagreen underline--full-width">NEWS</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="row blog__item-box">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="blog__item blog__item--color-mediumorchid">
+                            <div class="blog__item-img" style="background-image: url(./asset/img/container/blog-item/blog-01.jpg);"></div>
+                            <div class="blog__item-body">
+                                <h5 class="blog__sup-heading">OUR NEWS</h5>
+                                <h3 class="blog__heading">Travel Events</h3>
+                                <p class="blog__description">
+                                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.
+                                </p>
+                                <a href="" class="blog__btn btn btn--sandybrown">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-6 m-12 c-12">
+                        <div class="blog__item blog__item--color-lightseagreen">
+                            <div class="blog__item-img" style="background-image: url(./asset/img/container/blog-item/blog-02.jpg);"></div>
+                            <div class="blog__item-body">
+                                <h5 class="blog__sup-heading">TRAVEL TIPS</h5>
+                                <h3 class="blog__heading">New Routes</h3>
+                                <p class="blog__description">
+                                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.
+                                </p>
+                                <a href="" class="blog__btn btn btn--sandybrown">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-6 m-12 c-12">
+                        <div class="blog__item">
+                            <div class="blog__item-body blog__item--darkturquoise">
+                                <h5 class="blog__sup-heading">OUR NEWS</h5>
+                                <h3 class="blog__heading">Best Beaches</h3>
+                                <p class="blog__description">
+                                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.
+                                </p>
+                                <a href="" class="blog__btn btn btn--sandybrown">READ MORE</a>
+                            </div>
+                            <div class="blog__item-img" style="background-image: url(./asset/img/container/blog-item/blog-03.jpg);"></div>
+                        </div>
+                    </div>
+
+                    <div class="col l-6 m-12 c-12">
+                        <div class="blog__item blog__item--color-salmon">
+                            <div class="blog__item-body">
+                                <h5 class="blog__sup-heading">TRAVEL TIPS</h5>
+                                <h3 class="blog__heading">Love Travel</h3>
+                                <p class="blog__description">
+                                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.
+                                </p>
+                                <a href="" class="blog__btn btn btn--sandybrown">READ MORE</a>
+                            </div>
+                            <div class="blog__item-img" style="background-image: url(./asset/img/container/blog-item/blog-04.jpg);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" style="background-image: url(./asset/img/container/para-07.jpg);">
+            <div class="grid wide footer__content">
+                <div class="row footer__box">
+                    <div class="col l-6 m-12 c-12">
+                        <a href="" class="footer__logo-link">
+                            <img src="./asset/img/logo-color.png" alt="" class="footer__logo">
+                        </a>
+                        <p class="footer__messenger">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh
+                            <span class="footer__messenger--underline">condimentum</span>
+                            venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                        </p>
+                        <div class="social">
+                            <a href="" class="social__link">
+                                <i class="ti-twitter-alt"></i>
+                            </a>
+                            <a href="" class="social__link">
+                                <i class="ti-youtube"></i>
+                            </a>
+                            <a href="" class="social__link">
+                                <i class="ti-facebook"></i>
+                            </a>
+                            <a href="" class="social__link">
+                                <i class="ti-vimeo-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col l-6 m-12 c-12">
+                        <div class="row">
+                            <div class="col l-4 m-4 c-6">
+                                <h3 class="footer__heading">OUR AGENCY</h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Services
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Insurancee
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Agency
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Tourism
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Payment
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col l-4 m-4 c-6">
+                                <h3 class="footer__heading">PARTNERS</h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Booking
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            RentalCar
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            HostelWorld
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Trivago
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            TripAdvisor
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col l-4 m-4 c-6">
+                                <h3 class="footer__heading">LAST MINUTE</h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            London
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            California
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Indonesia
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Europe
+                                        </a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="" class="footer__link">
+                                            <i class="footer__link-icon ti-angle-right"></i>
+                                            Oceania
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="copyright">
+                            <p class="copyright__description">
+                                THE BEST WORDPRESS TRAVEL THEME
+                            </p>
+                            <p class="copyright__description">
+                                COPYRIGHT NICDARK THEMES 2018
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* tablet & mobile */
+@media (max-width: 1024px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    
+    .header__menu {
+        display: block;
+    }
+
+    .content__box-header {
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .content__sup-heading {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .content__heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content__desription {
+        margin: 0;
+    }
+
+    .content__btn {
+        margin-top: 20px;
+    }
+
+    .experience__place  {
+        position: unset;
+    }
+
+    .experience__place-link {
+        margin-bottom: 20px;
+    }
+
+    .services {
+        padding: 50px;
+    }
+
+    .sale-banner {
+        padding: 50px;
+    }
+
+    .sale-item { 
+        margin-bottom: 20px;
+    }
+
+    .footer__heading {
+        margin-top: 40px;
+    }
+}
+
+/* tablet */
+@media (min-width: 740) and (max-widht: 1024px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+
+/* mobile */
+@media (max-width: 739px) {
+    :root {
+        --header-height: 50px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .slider {
+        height: 400px;
+    }
+
+    .slider__heading {
+        text-align: center;
+    }
+
+    .slider__body {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    text-align: center;
+    }
+
+    .slider__control {
+        padding: 0;
+    }
+
+    .slider__heading {
+        font-size: 2.2rem;
+    }
+
+    .slider__buy {
+        display: block;
+        margin: 60px 0 0px;
+        text-align: center;
+    }
+
+    .slider__price {
+        display: none;
+    }
+
+    .content__box-header,
+    .content__heading {
+        padding: 0 10px;
+    }
+
+    .video__img {
+        height: 400px;
+    }
+
+    .sale-box {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+    
+    .copyright {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+

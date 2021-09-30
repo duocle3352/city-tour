@@ -1,0 +1,252 @@
+:root {
+    --text-color: #9a9a9a;
+    --text-header-color: #555555;
+    --primary-color: #f36bca;
+    --border-color: #f1f1f1;
+
+    --header-height: 78px;
+    --gold-color: #ffd205;
+    --salmon-color: #f76570;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.white-color {
+    color: #fff;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    height: 34px;
+    line-height: 3.4rem;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: opacity linear 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn--disable {
+    cursor: default;
+    opacity: 0.8 !important;
+}
+
+/* .btn--size-s {
+    height: 34px;
+    padding: 0 20px;
+    line-height: 3.4rem;
+} */
+
+.btn--size-l {
+    height: 50px;
+    padding: 0 52px;
+    line-height: 5rem;
+}
+
+.btn--text-primary {
+    color: var(--primary-color);
+}
+
+.btn--sandybrown {
+    background-color: var(--primary-color);
+}
+
+.btn--lightseagreen {
+    background-color: #1bbc9b;
+}
+
+.btn--salmon {
+    background-color: #ff6868;
+}
+
+.btn--darkturquoise {
+    background-color: #14b9d5;
+}
+
+.btn--mediumorchid {
+    background-color: #c755da;
+}
+
+.btn--gold {
+    background-color: var(--gold-color);
+}
+
+.btn--salmon {
+    background-color: var(--salmon-color);
+}
+
+.btn--white {
+    background-color: #fff;
+}
+
+/* 15 28 34 50 */
+
+/* TICK */
+.tick {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 3px 5px;
+    color: #fff;
+    border-radius: 3px;
+    float: right;
+}
+
+.tick--hot {
+    background-color: #f76570;
+    margin-top: 2px;
+}
+
+.tick--best {
+    background-color: #14b9d5;
+    margin-top: 2px;
+}
+
+.tick--new {
+    background-color: #1bbc9b;
+    margin-top: 2px;
+}
+
+.tick--sale {
+    font-size: 1.3rem;
+    background-color: #555555;
+}
+
+.tick--gold-color {
+    background-color: var(--gold-color);
+}
+
+.tick--salmon-color {
+    background-color: var(--salmon-color);
+}
+
+.tick--size-s {
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.tick--size-l {
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+/* UNDER LINE */
+
+.underline {
+    position: relative;
+    z-index: 1;
+}
+
+.underline::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: width linear 0.2s;
+}
+
+.underline--primary::after {
+    background-color: var(--primary-color);
+}
+
+.underline--darksalmon::after {
+    background-color: #da9360;
+}
+
+.underline--lightseagreen::after {
+    background-color: #1bbc9b;
+}
+
+.underline--full-width::after {
+    z-index: -1;
+    bottom: 11px;
+    height: 4px;
+    width: 100%;
+}
+
+/* BACKGROUND COLOR */
+.background-color-berlin {
+    background-image: linear-gradient(to right, #ffd005, #ff9c05);
+}
+
+.background-color-hongkong {
+    background-image: linear-gradient(to right, #f7676f, #f78c65);
+}
+
+.background-color-sanfrancisco {
+    background-image: linear-gradient(to right, #bb71d7, #d9717d);
+}
+
+.background-color-thailand {
+    background-image: linear-gradient(to right, #14bad4, #14d4b2);
+}
+
+
+
+@keyframes lee {
+    0% {
+        
+        transform: matrix(1, -0.02, -0.02, 1, 0, 0);
+    }
+    25% {
+        transform: matrix(1, -0.02, -0.02, 1, -5, 0);
+
+    }
+    50% {
+        transform: matrix(1, -0.02, -0.02, 1, -5, -5);
+
+    }
+    75% {
+        transform: matrix(1, -0.02, -0.02, 1, 0, -5);
+
+    }
+    100% {
+        transform: matrix(1, -0.02, -0.02, 1, 0, 0);
+
+    }
+}
+
+@keyframes sl-1 {
+    0% {visibility: visible;}
+    33.33333% {visibility: hidden;}
+    66.66667% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+@keyframes sl-2 {
+    0% {visibility: hidden;}
+    33.33333% {visibility: visible;}
+    66.66667% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+@keyframes sl-3 {
+    0% {visibility: visible;}
+    33.33333% {visibility: visible;}
+    66.66667% {visibility: hidden;}
+    100% {visibility: unset;}
+}
